@@ -1,5 +1,5 @@
 import ReactAnime from 'react-animejs'
-import { Section, GridContainer, SquareThree } from './style';
+import { Section, GridContainer, Square } from './style';
 
 const Grid = () => {
     const { Anime, stagger } = ReactAnime
@@ -35,66 +35,66 @@ const Grid = () => {
                     ]}
                 >
                     <GridContainer>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
-                        <SquareThree className='squareThree'></SquareThree>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
+                        <Square className='squareThree'></Square>
                     </GridContainer>
                 </Anime>
 

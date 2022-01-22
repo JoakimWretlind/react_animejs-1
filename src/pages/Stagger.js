@@ -1,5 +1,5 @@
 import ReactAnime from 'react-animejs'
-import { Section, SquareTwo } from "./style";
+import { Section, Square } from "./style";
 
 const Stagger = () => {
     const { Anime, stagger } = ReactAnime
@@ -11,6 +11,7 @@ const Stagger = () => {
                     {
                         targets: ".squareTwo",
                         translateX: stagger(150),
+                        scale: 2,
                         // customize stagger direction
                         delay: stagger(500, { from: 'last' }),
                         duration: 3000,
@@ -18,11 +19,11 @@ const Stagger = () => {
                     }
                 ]}
             >
-                <SquareTwo className="squareTwo"></SquareTwo>
-                <SquareTwo className="squareTwo"></SquareTwo>
-                <SquareTwo className="squareTwo"></SquareTwo>
-                <SquareTwo className="squareTwo"></SquareTwo>
-                <SquareTwo className="squareTwo"></SquareTwo>
+                <Square className="squareTwo"></Square>
+                <Square className="squareTwo"></Square>
+                <Square className="squareTwo"></Square>
+                <Square className="squareTwo"></Square>
+                <Square className="squareTwo"></Square>
             </Anime>
         </Section>
     );
